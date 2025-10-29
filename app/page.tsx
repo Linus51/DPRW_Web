@@ -5,13 +5,16 @@ export default function Page() {
     <>
       <section className="relative">
         <div className="absolute inset-0 overflow-hidden">
-          <iframe className="w-[177.78vh] h-[60vh] min-w-full min-h-full absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-          src="https://www.youtube.com/watch?v=miVz9nsMYEw&list=RDmiVz9nsMYEw&start_radio=1"
-          title="Background video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-    ></iframe>
+          <video
+            className="h-[60vh] w-full object-cover object-center"
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="/images/hero-poster.jpg"
+          >
+            <source src="/videos/hero.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/80" />
         </div>
         <div className="container-main relative h-[60vh] flex items-end pb-10">
