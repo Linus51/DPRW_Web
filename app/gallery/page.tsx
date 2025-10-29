@@ -11,7 +11,7 @@ export default function Page() {
             </div>
           ))}
         </div>
-        <p className="text-sm text-neutral-400 mt-4">Lege eigene Screenshots in <code>/public/images/shot-*.jpg</code> ab.</p>
+        <p className="text-sm text-neutral-400 mt-4">Alle Bilder sind Rechtlich geschützt durch die DPRW.</p>
       </div>
     </section>
   );
