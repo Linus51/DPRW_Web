@@ -1,0 +1,10 @@
+.next
+node_modules
+.env*
+*.log
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+public/videos/*

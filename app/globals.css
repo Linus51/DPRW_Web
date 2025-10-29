@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { --radius: 14px; }
+  body { @apply bg-coal text-neutral-100 antialiased; }
+  a { @apply text-sand hover:opacity-90 transition; }
+}
+@layer components {
+  .container-main { @apply max-w-6xl mx-auto px-4; }
+  .section { @apply py-12 md:py-16; }
+  .card { @apply rounded-2xl bg-neutral-900/60 border border-neutral-800 shadow-soft; }
+  .btn { @apply inline-flex items-center rounded-xl px-5 py-2.5 font-medium; }
+  .btn-primary { @apply bg-olive text-white hover:bg-oliveDark; }
+  .btn-outline { @apply border border-neutral-700 hover:bg-neutral-800; }
+}
