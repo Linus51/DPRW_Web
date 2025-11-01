@@ -1,0 +1,13 @@
+Bewerbung erhalten ✅
+
+Hi {{NAME}},
+
+vielen Dank für deine Bewerbung bei {{SITE_NAME}}. Wir prüfen deine Angaben und melden uns so schnell wie möglich bei dir.
+
+Deine Nachricht:
+{{MESSAGE}}
+
+Viele Grüße
+Das {{SITE_NAME}} Team
+{{SITE_URL}}
+© {{YEAR}} {{SITE_NAME}}

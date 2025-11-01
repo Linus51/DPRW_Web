@@ -1,0 +1,10 @@
+Neue Bewerbung eingegangen 📨
+
+Name: {{NAME}}
+E-Mail: {{EMAIL}}
+Alter: {{AGE}}
+
+Nachricht:
+{{MESSAGE}}
+
+Admin: {{ADMIN_URL}}
