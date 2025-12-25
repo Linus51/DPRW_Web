@@ -52,7 +52,7 @@ export default function Page() {
     const willUnmute = isMuted; // wenn gerade muted, dann wollen wir unmute
     if (willUnmute) {
       v.muted = false;
-      v.volume = 0.1;
+      v.volume = 0.05;
     } else {
       v.muted = true;
     }
