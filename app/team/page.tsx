@@ -1,6 +1,6 @@
 export default function Page() {
   const members = [
-    { name: "Linus", role: "Leitung", bio: "Administration, Organisation & Entscheidungsfindung. },
+    { name: "Linus", role: "Leitung", bio: "Administration, Organisation & Entscheidungsfindung." },
     { name: "Offen", role: "Stelv. Leitung", bio: "Administration, Organisation & Entscheidungsfindung." },
     { name: "Offen", role: "Moderation", bio: "Chat-/Voice-Moderation, Regelüberwachung." },
     { name: "Offen", role: "Organisation & Planung", bio: "Events, Community-Aktionen." },
