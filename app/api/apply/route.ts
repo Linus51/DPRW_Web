@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     });
 
     const SITE_NAME = process.env.SITE_NAME || "DPRW";
-    const SITE_URL = process.env.SITE_URL || "http://localhost:3000";
+    const SITE_URL = process.env.SITE_URL || "http://46.4.38.161:3000";
 
     // E-Mail an Bewerber
     try {
