@@ -11,7 +11,7 @@ export default function Page() {
             Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br />
             <strong>Linus Knoch</strong><br />
             Zum Kleinbahnhof 2, 99090 Erfurt, Deutschland<br />
-            E-Mail: Auf Anfrage
+            E-Mail: folgt
           </p>
         </section>
 
