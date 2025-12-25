@@ -1,6 +1,7 @@
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import SiteBanner from "@/components/SiteBanner";
 import { Inter, Black_Ops_One } from "next/font/google";
 
 export const metadata = {
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="de">
       <body className={`${inter.variable} ${blackops.variable} font-sans`}>
         <Nav />
+        <SiteBanner />
         <main>{children}</main>
         <Footer />
       </body>

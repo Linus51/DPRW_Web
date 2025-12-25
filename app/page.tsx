@@ -1,15 +1,16 @@
 import Link from "next/link";
+import HomeAnnouncementModal from "@/components/HomeAnnouncementModal";
 
 export default function Page() {
   return (
     <>
+    <HomeAnnouncementModal />
       <section className="relative">
         <div className="absolute inset-0 overflow-hidden">
           <video
             className="h-[60vh] w-full object-cover object-center"
             autoPlay
             loop
-            muted
             playsInline
             poster="/images/hero-poster.jpg"
           >
