@@ -8,6 +8,7 @@ const links = [
   { href: "/apply", label: "Beitritt" },
   { href: "/events", label: "Einsätze" },
   { href: "/gallery", label: "Galerie" },
+  { href: "/karriere", label: "Karriere" },
   { href: "/contact", label: "Kontakt" },
   { href: "/discord", label: "Discord" },
 ];
