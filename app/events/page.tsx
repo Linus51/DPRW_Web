@@ -1,6 +1,6 @@
 export default function Page() {
   const events = [
-    { date: "-", title: "-", desc: "-" },
+    { date: "01.01.2026", title: "Info", desc: "Frohes Neues Jahr" },
 
   ];
   return (
