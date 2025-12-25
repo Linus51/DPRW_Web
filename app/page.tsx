@@ -11,6 +11,7 @@ export default function Page() {
             className="h-[60vh] w-full object-cover object-center"
             autoPlay
             loop
+            muted
             playsInline
             poster="/images/hero-poster.jpg"
           >
