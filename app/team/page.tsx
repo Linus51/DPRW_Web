@@ -1,8 +1,11 @@
 export default function Page() {
   const members = [
-    { name: "Kommandant Adler", role: "Leitung", bio: "Koordination & Taktik." },
-    { name: "Panzerführer Wolf", role: "Operations", bio: "Bodeneinsätze & Recon." },
-    { name: "Funker Eiche", role: "Kommunikation", bio: "Funk/Briefings." },
+    { name: "Linus", role: "Leitung", bio: "Administration, Organisation & Entscheidungsfindung. },
+    { name: "Offen", role: "Stelv. Leitung", bio: "Administration, Organisation & Entscheidungsfindung." },
+    { name: "Offen", role: "Moderation", bio: "Chat-/Voice-Moderation, Regelüberwachung." },
+    { name: "Offen", role: "Organisation & Planung", bio: "Events, Community-Aktionen." },
+    { name: "Offen", role: "Ideen & Konzeptentwicklung", bio: "Struktur, Formate, Neuerungen." },
+    { name: "Offen", role: "Support", bio: "Ansprechpartner für Mitgliederation." },
   ];
   return (
     <section className="section">
